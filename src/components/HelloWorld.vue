@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>WELCOME{{ msg }}</h1>
-   
+  </div>
 </template>
 
 <script>

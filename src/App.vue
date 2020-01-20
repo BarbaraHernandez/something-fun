@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg=" you are my favorite"/>
+  <!-- Game components below -->
+    <Gem imageSource="1"></Gem>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Gem from './components/Gem'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Gem
   }
 }
 </script>
